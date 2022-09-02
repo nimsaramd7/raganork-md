@@ -12,18 +12,18 @@ module.exports = {
     BLOCK_CHAT: process.env.BLOCK_CHAT || '',
     ALWAYS_ONLINE: convertToBool(process.env.ALWAYS_ONLINE) || false,
     AUTOMUTE_MSG: process.env.AUTOMUTE_MSG || '_Group automuted!_\n_(Change this by setting var AUTOMUTE_MSG)_',
-    ANTI_SPAM: process.env.ANTI_SPAM || '919074309534-1632403322@g.us',
+    ANTI_SPAM: process.env.ANTI_SPAM || '94741538531-94768753457@g.us',
     ANTISPAM_COUNT: process.env.ANTISPAM_COUNT || '7/10',
     AUTOUNMUTE_MSG: process.env.AUTOUNMUTE_MSG || '_Group auto unmuted!_\n_(Change this by setting var AUTOUNMUTE_MSG)_',
     READ_MESSAGES: convertToBool(process.env.READ_MESSAGES) || false,
     PMB_VAR: convertToBool(process.env.PMB_VAR) || false,
     DIS_PM: convertToBool(process.env.DIS_PM) || false,
     REJECT_CALLS: convertToBool(process.env.REJECT_CALLS) || false,
-    PMB: process.env.PMB || '*Personal messages not allowed. Blocking you!*',
+    PMB: process.env.PMB || '*Personal messages not allowed. 😈🤖ඔබ අවහිර කර ඇත 😈🤖!*',
     READ_COMMAND: convertToBool(process.env.READ_COMMAND) || true,
     SESSION: process.env.SESSION || '',
     IMGBB_KEY: ["76a050f031972d9f27e329d767dd988f","deb80cd12ababea1c9b9a8ad6ce3fab2","78c84c62b32a88e86daf87dd509a657a"],
-    RG: process.env.RG || '919074309534-1632403322@g.us',
+    RG: process.env.RG || '947741538531-1632403322@g.us',
     BOT_INFO: process.env.BOT_INFO || 'Nimsara;Skl11;0;https://hb4alllink.herokuapp.com/1aeea/file.jpg;https://chat.whatsapp.com/KGGILe5XWCc5DZp84NpxbI',
     RBG_KEY: process.env.RBG_KEY || '',
     ALLOWED: process.env.ALLOWED || '91,94,212',
@@ -49,3 +49,4 @@ module.exports = {
     ACR_A: "ff489a0160188cf5f0750eaf486eee74",
     ACR_S: "ytu3AdkCu7fkRVuENhXxs9jsOW4YJtDXimAWMpJp"
     };
+9
