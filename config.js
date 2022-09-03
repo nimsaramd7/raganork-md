@@ -8,7 +8,7 @@ DATABASE_URL = process.env.DATABASE_URL === undefined ? './bot.db' : process.env
 DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBUG);
 module.exports = {
     VERSION: 'v3.0.0',
-    ALIVE: process.env.ALIVE || "https://chat.whatsapp.com/KGGILe5XWCc5DZp84NpxbI Hey {sender}, I'm alive ✅\n time: {uptime}",
+    ALIVE: process.env.ALIVE || "https://chat.whatsapp.com/EkqdllOyvPs1bKX6FLcYUd Hey {sender}, I'm alive ✅\n time: {uptime}",
     BLOCK_CHAT: process.env.BLOCK_CHAT || '',
     ALWAYS_ONLINE: convertToBool(process.env.ALWAYS_ONLINE) || false,
     AUTOMUTE_MSG: process.env.AUTOMUTE_MSG || '_Group automuted!_\n_(Change this by setting var AUTOMUTE_MSG)_',
@@ -20,7 +20,7 @@ module.exports = {
     DIS_PM: convertToBool(process.env.DIS_PM) || false,
     REJECT_CALLS: convertToBool(process.env.REJECT_CALLS) || false,
     PMB: process.env.PMB || '*Personal messages not allowed. 😈🤖ඔබ අවහිර කර ඇත 😈🤖!*',
-    READ_COMMAND: convertToBool(process.env.READ_COMMAND) || true,
+    READ_COMMAND: convertToBool(process.env.READ_COMMAND) || false,
     SESSION: process.env.SESSION || '',
     IMGBB_KEY: ["76a050f031972d9f27e329d767dd988f","deb80cd12ababea1c9b9a8ad6ce3fab2","78c84c62b32a88e86daf87dd509a657a"],
     RG: process.env.RG || '947741538531-1632403322@g.us',
@@ -44,7 +44,7 @@ module.exports = {
     DATABASE_URL: DATABASE_URL,
     DATABASE: DATABASE_URL === './bot.db' ? new Sequelize({ dialect: "sqlite", storage: DATABASE_URL, logging: DEBUG }) : new Sequelize(DATABASE_URL, { dialectOptions: { ssl: { require: true, rejectUnauthorized: false } }, logging: DEBUG }),
     SUDO: process.env.SUDO || "",
-    LANGUAGE: process.env.LANGUAGE || 'english',
+    LANGUAGE: process.env.LANGUAGE || 'sinhala',
     DEBUG: DEBUG,
     ACR_A: "ff489a0160188cf5f0750eaf486eee74",
     ACR_S: "ytu3AdkCu7fkRVuENhXxs9jsOW4YJtDXimAWMpJp"
